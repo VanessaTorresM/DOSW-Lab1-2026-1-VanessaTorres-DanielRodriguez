@@ -15,11 +15,18 @@ public class CarreraParalela {
             lista -> lista.size();
 
     static Function<List<Integer>, ResultadoEstadistico> calcularEstadisticas =
-            lista -> new ResultadoEstadistico(
-                    maximo.apply(lista),
-                    minimo.apply(lista),
-                    cantidad.apply(lista));
+            lista -> {
+                int max = maximo.apply(lista);
 
+                boolean esPar = (max % 2 == 0) ? true : false;
+
+                return new ResultadoEstadistico(
+                        max,
+                        minimo.apply(lista),
+                        cantidad.apply(lista),
+                        esPar
+                );
+            };
     public static void main(String[] args) {
 
         List<Integer> numeros = List.of(5, 9, 2, 9, 1);
@@ -30,6 +37,7 @@ public class CarreraParalela {
         System.out.println("Maximo: " + resultado.maximo());
         System.out.println("Minimo: " + resultado.minimo());
         System.out.println("Cantidad: " + resultado.cantidad());
+        System.out.println("Es par : " + resultado.maximoPar());
 
     }
 }
