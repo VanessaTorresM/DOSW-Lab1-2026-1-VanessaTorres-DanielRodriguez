@@ -5,28 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57f9f5c3-4e02-409b-bcbb-a9c2a542e4c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/scr.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto1/Reto1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr/Laboratorio1/reto2/ResultadoEstadistico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/Mensaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto1/Mensaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/Reto1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto1/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto2/Reto2.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto2/Reto2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto3/Reto3.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto3/Reto3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto4/Reto4.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto4/Reto4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto5/Reto5.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto5/Reto5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto6/Reto6.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/src/Laboratorio1/reto6/Reto6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/Laboratorio1/reto2/CarreraParalela.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Laboratorio1/reto2/CarreraParalela.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/reto_numero_2_RodriguezDaniel_VanessaTorres" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/reto__numero__1__RodigriguezSantiago2__2026-1",
+    "git-widget-placeholder": "feature/reto__carril__uno__TorresVanessa1__2026-1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/JEIMMY.TORRES-M/Desktop/lab1/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez",
     "onboarding.tips.debug.path": "C:/Users/Vanessa/OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO/Escritorio/Laboratorio1 DOSW/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/scr/src/Main.java",
@@ -67,8 +65,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="C:\Users\Vanessa\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO\Escritorio\Laboratorio1 DOSW\DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez\Laboratorio1\reto1\Reto1.java" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C:\Users\Vanessa\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO\Escritorio\Laboratorio1 DOSW\DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez\Laboratorio1\reto1\Reto1.java" />
+    <configuration name="java" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C:\Users\Vanessa\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO\Escritorio\lab1Dosw\DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez\scr\Laboratorio1\reto2\CarreraParalela.java" />
       <module name="DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez" />
       <option name="PROGRAM_PARAMETERS" value="$Classpath$" />
       <method v="2">
@@ -104,17 +102,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/scr/src/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DOSW_Lab1_2026_1_VanessaTorres_DanielRodriguez$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1769373627760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
