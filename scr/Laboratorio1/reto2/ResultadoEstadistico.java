@@ -1,11 +1,9 @@
 package Laboratorio1.reto2;
 
-public record ResultadoEstadistico(
-        int maximo,
-        int minimo,
-        int cantidad,
-        boolean maximoEsPar
-) {
+
+
+public record ResultadoEstadistico(int maximo, int minimo, int cantidad, boolean maximoPar, boolean esDiv2,
+                                   boolean cantPar) {
 }
 
 
