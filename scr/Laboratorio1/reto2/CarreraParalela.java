@@ -38,27 +38,27 @@ public class CarreraParalela {
 
                 );
             };
+    static void imprimirResultado(String nombreLista, List<Integer> numeros) {
+        ResultadoEstadistico r = calcularEstadisticas.apply(numeros);
+
+        System.out.println("---- " + nombreLista + " ----");
+        System.out.println("Maximo: " + r.maximo());
+        System.out.println("Minimo: " + r.minimo());
+        System.out.println("Cantidad: " + r.cantidad());
+        System.out.println("Maximo es par: " + r.maximoPar());
+        System.out.println("Maximo divisible por 2: " + r.esDiv2());
+        System.out.println("Cantidad es par: " + r.cantPar());
+        System.out.println("Cantidad es impar: " + r.cantImpar());
+        System.out.println();
+    }
 
     public static void main(String[] args) {
 
         List<Integer> numeros = List.of(20, 40, 12, 4, 2);
+        List<Integer> numeros2 = List.of(25, 50, 12, 31, 17, 4, 2);
 
-
-
-        ResultadoEstadistico resultado =
-                calcularEstadisticas.apply(numeros);
-        System.out.println("Maximo: " + resultado.maximo());
-        System.out.println("Minimo: " + resultado.minimo());
-        System.out.println("Cantidad: " + resultado.cantidad());
-
-        System.out.println("Es par: " + resultado.maximoPar());
-        System.out.println("Es Divisor de 2: " + resultado.esDiv2());
-
-        System.out.println("Es par: " + resultado.maximoPar());
-        System.out.println("Es Divisor de 2: " + resultado.esDiv2());
-        System.out.println("la cantidad de datos es par: " + resultado.cantPar());
-        System.out.println("la cantidad de datos es impar: " + resultado.cantImpar());
-
+        imprimirResultado("Lista 1", numeros);
+        imprimirResultado("Lista 2", numeros2);
     }
 }
 
