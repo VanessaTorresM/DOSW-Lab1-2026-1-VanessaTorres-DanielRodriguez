@@ -18,7 +18,7 @@ public class CarreraParalela {
     static Function<List<Integer>, Integer> cantidad =
             lista -> lista.size();
 
-    // ✅ LAMBDA FINAL CORRECTA
+
     static Function<List<Integer>, ResultadoEstadistico> calcularEstadisticas =
             lista -> {
                 int max = maximo.apply(lista);

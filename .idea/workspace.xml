@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57f9f5c3-4e02-409b-bcbb-a9c2a542e4c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/Laboratorio1/reto1/Estudiante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/Laboratorio1/reto1/Mensaje.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/Laboratorio1/reto1/Reto1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/Laboratorio1/reto2/CarreraParalela.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/Laboratorio1/reto2/ResultadoEstadistico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/Laboratorio1/reto2/CarreraParalela.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Laboratorio1/reto2/CarreraParalela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/Laboratorio1/reto2/ResultadoEstadistico.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Laboratorio1/reto2/ResultadoEstadistico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging feature/reto__numero__2__RodriguezDaniel__VanessaTorres",
+    "git-widget-placeholder": "feature/reto__numero__2__RodriguezDaniel__VanessaTorres",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/JEIMMY.TORRES-M/Desktop/lab1/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez",
     "onboarding.tips.debug.path": "C:/Users/Vanessa/OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO/Escritorio/Laboratorio1 DOSW/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/scr/src/Main.java",
