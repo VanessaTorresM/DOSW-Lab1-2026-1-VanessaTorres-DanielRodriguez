@@ -25,7 +25,7 @@ public class CarreraParalela {
                 boolean esPar = (max % 2 == 0) ? true : false;
                 boolean esDiv2 = (max % 2 == 0) ? true : false;
                 boolean cantPar = (cant % 2 == 0) ? true : false;
-
+                boolean cantImpar = (cant % 2 == 1) ? true : false;
 
                 return new ResultadoEstadistico(
                         max,
@@ -33,7 +33,8 @@ public class CarreraParalela {
                         cantidad.apply(lista),
                         esPar,
                         esDiv2,
-                        cantPar
+                        cantPar,
+                        cantImpar
 
                 );
             };
@@ -56,6 +57,7 @@ public class CarreraParalela {
         System.out.println("Es par: " + resultado.maximoPar());
         System.out.println("Es Divisor de 2: " + resultado.esDiv2());
         System.out.println("la cantidad de datos es par: " + resultado.cantPar());
+        System.out.println("la cantidad de datos es impar: " + resultado.cantImpar());
 
     }
 }
