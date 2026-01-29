@@ -2,20 +2,29 @@ package Laboratorio1.reto4;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 import java.util.List;
 
-public class Tesoro {
+public static class Tesoro {
 
     public HashMap<String,Integer> crearHashMap(
             List<Map.Entry<String, Integer>> parejas){
 
         HashMap<String, Integer> mapa = new HashMap<>();
-
-        parejas.forEach(p->mapa.putIfAbsent(p.getKey(),p.getValue()));
-
+        parejas.forEach(p -> mapa.putIfAbsent(p.getKey(), p.getValue()));
         return mapa;
     }
+
+    public Hashtable<String,Integer> crearHashTable(
+            List<Map.Entry<String, Integer>> parejas){
+
+        Hashtable<String, Integer> mapa = new Hashtable<>();
+        parejas.forEach(p -> mapa.putIfAbsent(p.getKey(), p.getValue()));
+        return mapa;
+    }
+}
+
 
 
     public static void main(String[] args) {
