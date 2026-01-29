@@ -1,9 +1,7 @@
 package Laboratorio1.reto4;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.List;
+import java.util.*;
+import java.util.function.Function;
 
 public class Tesoro {
 
@@ -40,6 +38,15 @@ public class Tesoro {
         return resultado;
     }
 
+    public static Map<String, Integer> Mayusculas(Map<String, Integer> mapa){
+
+        Map<String, Integer> resultado = new HashMap<>();
+
+        mapa.forEach((key, value) -> resultado.put(key.toUpperCase() , value));
+
+        return resultado;
+    }
+
 
     public static void main(String[] args) {
 
@@ -60,9 +67,11 @@ public class Tesoro {
 
 
         Tesoro tesoro = new Tesoro();
-        HashMap<String, Integer> resultado = tesoro.combinarMapas(mapa1,mapa2);
+        HashMap<String, Integer> combinado = tesoro.combinarMapas(mapa1,mapa2);
 
-        System.out.println(resultado);
+
+
+        System.out.println(Mayusculas(combinado));
     }
 }
 
