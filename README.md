@@ -2,7 +2,7 @@
 
 ## Integrantes 
 -- Jeimmy Vanessa Torres Marin
--- Daniel Esteban Rodriguez
+-- Daniel Esteban Rodriguez Suarez
 
 ## Retos Completos 
 
@@ -49,7 +49,7 @@ R/ El git merge fusiona las ramas y el git rebase sobre escribe una sobre la otr
 
 2. Si dos ramas modifican la misma línea de un archivo, ¿qué sucede al hacer merge?
 
-R/
+R/ Se produce un conflicto de fusion, y esto requiere que el desarrollador decida que cambios dejar y cuales no.
 
 3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
 
