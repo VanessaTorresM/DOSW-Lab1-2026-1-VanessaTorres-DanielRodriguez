@@ -1,10 +1,9 @@
 # DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez
 
 ## Integrantes 
--- Jeimmy Vanessa Torres Marin 
--- Daniel Esteban Rodriguez 
+-- Jeimmy Vanessa Torres Marin
+-- Daniel Esteban Rodriguez
 
---
 ## Retos Completos 
 
 ### Reto 1 : Configuracion y cracion de rama 
@@ -19,5 +18,52 @@ imagen
 
 **Descripcion**
 
+### Reto 3 : commit colaborativo
+**Evidencia**
+imagen
+
+**Descripcion**
+
+### Reto 4 : commit colaborativo
+**Evidencia**
+imagen
+
+**Descripcion**
+
+### Reto 5 : commit colaborativo
+**Evidencia**
+imagen
+
+**Descripcion**
+
+### Reto 6 : commit colaborativo
+**Evidencia**
+imagen
+
+**Descripcion**
+
 ## Preguntas teoricas
-- pregunta 1
+1. ¿Cuál es la diferencia entre git merge y git rebase?
+2. Si dos ramas modifican la misma línea de un archivo, ¿qué sucede al hacer merge?
+3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
+4. Explica la diferencia entre un commit y un push.
+5. ¿Para qué sirven git stash y git pop?
+6. ¿Qué diferencia hay entre HashMap y HashTable?
+7. ¿Qué ventajas Fene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+8. Si usas List con objetos y luego aplicas stream().map(), ¿qué tipo de operación estás haciendo?
+9. ¿Qué hace el método stream().filter() y qué retorna?
+10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+11. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
+12. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?
+
+## Acuerdos
+
+1. Distribución de responsabilidades
+
+2. Forma de comunicación
+
+3. Frecuencia de trabajo
+
+4. Manejo de conflictos y desacuerdos
+
+5. Compromisos frente a entregas y calidad
