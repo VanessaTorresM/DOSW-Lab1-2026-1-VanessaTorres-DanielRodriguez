@@ -57,7 +57,7 @@ R/
 
 4. Explica la diferencia entre un commit y un push.
 
-R/
+R/ git commit guarda los cambios de manera local, mientras que git push guarda los cambios de manera remota.
 
 5. ¿Para qué sirven git stash y git pop?
 
