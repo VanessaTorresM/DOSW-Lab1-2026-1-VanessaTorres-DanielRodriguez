@@ -1,9 +1,6 @@
 package Laboratorio1.reto4;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
-import java.util.List;
+import java.util.*;
 
 public class Tesoro {
 
@@ -40,6 +37,17 @@ public class Tesoro {
         return resultado;
     }
 
+    public static Map<String, Integer> ordenar(Map<String, Integer> mapa) {
+        return mapa.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByKey())
+                .collect(
+                        LinkedHashMap::new,
+                        (m, e) -> m.put(e.getKey(), e.getValue()),
+                        LinkedHashMap::putAll
+                );
+    }
+
 
     public static void main(String[] args) {
 
@@ -63,6 +71,11 @@ public class Tesoro {
         HashMap<String, Integer> resultado = tesoro.combinarMapas(mapa1,mapa2);
 
         System.out.println(resultado);
+
+        Map<String, Integer> ordenado = ordenar(resultado);
+        System.out.println(ordenado);
+
+
     }
 }
 
