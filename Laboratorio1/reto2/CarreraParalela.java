@@ -1,4 +1,4 @@
-package Laboratorio1.reto2;
+package reto2;
 import java.util.List;
 import java.util.function.Function;
 public class CarreraParalela {
