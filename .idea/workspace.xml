@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57f9f5c3-4e02-409b-bcbb-a9c2a542e4c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,25 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.C:\\Users\\Vanessa\\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO\\Escritorio\\Laboratorio1 DOSW\\DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez\\Laboratorio1\\reto1\\Reto1.java.executor": "Run",
-    "Application.Reto1.executor": "Run",
-    "Application.Unnamed.executor": "Coverage",
-    "Application.java.executor": "Coverage",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JEIMMY.TORRES-M/Desktop/lab1/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez",
-    "onboarding.tips.debug.path": "C:/Users/Vanessa/OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO/Escritorio/Laboratorio1 DOSW/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/scr/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.C:\\Users\\Vanessa\\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO\\Escritorio\\Laboratorio1 DOSW\\DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez\\Laboratorio1\\reto1\\Reto1.java.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reto1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.java.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JEIMMY.TORRES-M/Desktop/lab1/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Vanessa/OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO/Escritorio/Laboratorio1 DOSW/DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez/scr/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vanessa\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO\Escritorio\Laboratorio1 DOSW\DOSW-Lab1-2026-1-VanessaTorres-DanielRodriguez\scr\src" />
