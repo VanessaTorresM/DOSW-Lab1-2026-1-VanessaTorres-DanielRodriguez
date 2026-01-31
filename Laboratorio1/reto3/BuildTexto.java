@@ -1,12 +1,16 @@
-package Laboratorio1.reto3;
+package reto3;
+import java.util.stream.IntStream;
 
 
-public class BuildTexto {
-    public static  void main(String[] args) {
-       StringBuilder texto = new StringBuilder();
+    public class BuildTexto {
+        public static String repetirTresVeces(String mensaje) {
 
+            StringBuilder texto = new StringBuilder();
+            IntStream.range(0, 3)
+                    .forEach(i -> texto.append(mensaje).append(" "));
 
-        texto.repeat("hola ",3);
-        System.out.println(texto);
+            return texto.toString(); }
+        public static void main(String[] args) {
+            System.out.println(repetirTresVeces("hola"));
+        }
     }
-}
