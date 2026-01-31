@@ -1,4 +1,4 @@
-package Laboratorio1.reto4;
+package  reto4;
 
 import java.util.*;
 
