@@ -1,10 +1,14 @@
-package Laboratorio1.reto3;
+package reto3;
 
 public class Buffertext {
-    public  static void main(String[] args) {
-        StringBuffer texto = new StringBuffer();
-        texto.append("Texto");
-        texto.reverse();
-        System.out.println(texto);
+
+    public static String alreves(String texto){
+        StringBuffer palabra = new StringBuffer(texto);
+        palabra.reverse();
+        return palabra.toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(alreves("texto"));
     }
 }
