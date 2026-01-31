@@ -1,8 +1,16 @@
+package reto3;
 
 public class Reto3 {
+
+    public static String combinacion(String mensaje) {
+
+        String repetido = BuildTexto.repetirTresVeces(mensaje);
+        String invertido = Buffertext.alreves(repetido);
+
+        return invertido;
+    }
+
     public static void main(String[] args) {
-        StringBuilder texto1 = new StringBuilder();
-        texto1.append("hola ");
-        System.out.println(texto1.apply);
+        System.out.println(combinacion("hola"));
     }
 }
