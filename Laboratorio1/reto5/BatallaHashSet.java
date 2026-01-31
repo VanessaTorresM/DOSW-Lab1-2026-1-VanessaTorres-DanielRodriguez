@@ -1,10 +1,13 @@
+
+package reto5;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.ArrayList;
-
+import java.util.List;
 public class BatallaHashSet {
 
-    public static Set<Integer> crearHashSet(ArrayList<Integer> listaEntrada) {
+
+
+    public static Set<Integer> crearHashSet(List<Integer> listaEntrada) {
 
         Set<Integer> salida = new HashSet<>();
 
@@ -13,5 +16,12 @@ public class BatallaHashSet {
                 .forEach(salida::add);
 
         return salida;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(
+                crearHashSet(List.of(3, 6, 5, 77, 66, 1, 2))
+        );
     }
 }
