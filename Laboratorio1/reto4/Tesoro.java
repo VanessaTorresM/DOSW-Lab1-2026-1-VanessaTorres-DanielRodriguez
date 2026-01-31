@@ -1,7 +1,9 @@
-package Laboratorio1.reto4;
+package  reto4;
 
 import java.util.*;
+
 import java.util.function.Function;
+
 
 public class Tesoro {
 
@@ -45,6 +47,15 @@ public class Tesoro {
         mapa.forEach((key, value) -> resultado.put(key.toUpperCase() , value));
 
         return resultado;
+    public static Map<String, Integer> ordenar(Map<String, Integer> mapa) {
+        return mapa.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByKey())
+                .collect(
+                        LinkedHashMap::new,
+                        (m, e) -> m.put(e.getKey(), e.getValue()),
+                        LinkedHashMap::putAll
+                );
     }
 
 
@@ -72,6 +83,12 @@ public class Tesoro {
 
 
         System.out.println(Mayusculas(combinado));
+        System.out.println(resultado);
+
+        Map<String, Integer> ordenado = ordenar(resultado);
+        System.out.println(ordenado);
+
+
     }
 }
 
