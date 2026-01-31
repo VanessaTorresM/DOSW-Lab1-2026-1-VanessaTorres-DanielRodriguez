@@ -1,27 +1,7 @@
 package  reto4;
-
 import java.util.*;
 
-import java.util.function.Function;
-
-
 public class Tesoro {
-
-    public HashMap<String, Integer> crearHashMap(
-            List<Map.Entry<String, Integer>> parejas) {
-
-        HashMap<String, Integer> mapa = new HashMap<>();
-        parejas.forEach(p -> mapa.putIfAbsent(p.getKey(), p.getValue()));
-        return mapa;
-    }
-
-    public Hashtable<String, Integer> crearHashTable(
-            List<Map.Entry<String, Integer>> parejas) {
-
-        Hashtable<String, Integer> mapa = new Hashtable<>();
-        parejas.forEach(p -> mapa.putIfAbsent(p.getKey(), p.getValue()));
-        return mapa;
-    }
 
     public HashMap<String, Integer> combinarMapas(
             List<Map.Entry<String, Integer>> mapa1,
@@ -30,23 +10,22 @@ public class Tesoro {
         HashMap<String, Integer> resultado = new HashMap<>();
 
         mapa1.forEach(e ->
-                resultado.putIfAbsent(e.getKey(), e.getValue())
+                resultado.merge(e.getKey(), e.getValue(), Math::max)
         );
 
         mapa2.forEach(e ->
-                resultado.putIfAbsent(e.getKey(), e.getValue())
+                resultado.merge(e.getKey(), e.getValue(), Math::max)
         );
 
         return resultado;
     }
 
-    public static Map<String, Integer> Mayusculas(Map<String, Integer> mapa){
-
+    public static Map<String, Integer> Mayusculas(Map<String, Integer> mapa) {
         Map<String, Integer> resultado = new HashMap<>();
-
-        mapa.forEach((key, value) -> resultado.put(key.toUpperCase() , value));
-
+        mapa.forEach((k, v) -> resultado.put(k.toUpperCase(), v));
         return resultado;
+    }
+
     public static Map<String, Integer> ordenar(Map<String, Integer> mapa) {
         return mapa.entrySet()
                 .stream()
@@ -56,6 +35,12 @@ public class Tesoro {
                         (m, e) -> m.put(e.getKey(), e.getValue()),
                         LinkedHashMap::putAll
                 );
+    }
+
+    public static void mostrarSalida(Map<String, Integer> mapa) {
+        mapa.forEach((k, v) ->
+                System.out.println("Clave: " + k + " | Valor: " + v)
+        );
     }
 
 
@@ -75,20 +60,17 @@ public class Tesoro {
                 Map.entry("esmeralda", 6)
         );
 
-
-
         Tesoro tesoro = new Tesoro();
-        HashMap<String, Integer> combinado = tesoro.combinarMapas(mapa1,mapa2);
 
+        Map<String, Integer> combinado =
+                tesoro.combinarMapas(mapa1, mapa2);
 
+        Map<String, Integer> mayus = Mayusculas(combinado);
 
-        System.out.println(Mayusculas(combinado));
-        System.out.println(resultado);
+        Map<String, Integer> ordenado = ordenar(mayus);
 
-        Map<String, Integer> ordenado = ordenar(resultado);
-        System.out.println(ordenado);
-
-
+        mostrarSalida(ordenado);
     }
 }
+
 
