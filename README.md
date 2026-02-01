@@ -72,27 +72,30 @@ pero no permite valores nulos
 
 7. ¿Qué ventajas tiene  Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
 
-R/
+R/ Tiene una mayor legibilidad, ademas de que se usa menos codigo y tambien tiene una mejor integracion con los streams.
 
 8. Si usas List con objetos y luego aplicas stream().map(), ¿qué tipo de operación estás haciendo?
 
-R/
+R/ Una operacion intermedia de transformacion, ya que se convierten los elementos del steam en otros sin producir un resultado final hasta que se aplica una operacion terminal.
 
 9. ¿Qué hace el método stream().filter() y qué retorna?
 
-R/
+R/Aplica un filtro a los elementos de un steam y retorna un nuevo steam con los elementos que cumplen la condicion del filtro.
 
 10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
 
-R/
+R/ 
+    1.Nos asguramos de estar en la rama develop con el comando : git checkout develop
+    2.Se crea la nueva rama estando desde develop con el comando: git checkout -b feature/nuva_rama
+
 
 11. ¿Cuál es la diferencia entre crear una rama con git branch y con git checkout -b?
 
-R/
+R/ Con git branch creas la rama pero no te mueve automaticamente a esa rama, en cambio con git checkout -b ademas de crearte la rama tambien te mueve a esa nueva rama.
 
 12. ¿Por qué es recomendable crear ramas feature/ para nuevas funcionalidades en lugar de trabajar en main directamente?
 
-R/
+R/ Por que es una buena practica permitiendo crear nuevas funcionalidades de forma aislada, protegiendo la estabilidad del main y ademas facilita el trabajo en equio permitiendo hacer pruebas de codigo antes de integrarlo en el principal.
 
 ## Acuerdos
 
