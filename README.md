@@ -18,7 +18,8 @@
 
 ### Reto 2 : commit colaborativo 
 **Evidencia**
-imagen
+<img width="1795" height="695" alt="Captura de pantalla 2026-02-01 162115" src="https://github.com/user-attachments/assets/051ccf16-b827-44d3-841d-64899727d91c" />
+
 
 **Descripcion**
 
