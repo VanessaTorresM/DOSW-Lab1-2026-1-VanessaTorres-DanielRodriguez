@@ -18,49 +18,39 @@ public class Reto6 {
         comandos.put("ANALIZAR", () -> System.out.println("La máquina procesa: Analizando datos… resultado: ¡Eres increíble programando!"));
     }
 
-    public static void ejecutarComando(String comando) { Runnable accion;
-
-        switch (comando) {
+    public static String resolverComando(String mensaje) {
+        switch (mensaje) {
             case "SALUDAR":
-                accion = comandos.get("SALUDAR");
-                break;
             case "DESPEDIR":
-                accion = comandos.get("DESPEDIR");
-                break;
             case "CANTAR":
-                accion = comandos.get("CANTAR");
-                break;
             case "DANZAR":
-                accion = comandos.get("DANZAR");
-                break;
             case "BROMEAR":
-                accion = comandos.get("BROMEAR");
-                break;
             case "GRITAR":
-                accion = comandos.get("GRITAR");
-                break;
             case "SUSURRAR":
-                accion = comandos.get("SUSURRAR");
-                break;
             case "ANALIZAR":
-                accion = comandos.get("ANALIZAR");
-                break;
+                return mensaje;
             default:
-                System.out.println("Comando desconocido: " + comando);
-                return;
+                return "DESCONOCIDO";
         }
-
-        accion.run();
     }
+    public static void ejecutar(String mensaje) {
+        String comando = resolverComando(mensaje);
+        Runnable accion = comandos.get(comando);
 
+        if (accion != null) {
+            accion.run();
+        } else {
+            System.out.println("Comando desconocido: " + mensaje);
+        }
+    }
     public static void main(String[] args) {
-
-        ejecutarComando("SALUDAR");
-        ejecutarComando("BROMEAR");
-        ejecutarComando("ANALIZAR");
-        ejecutarComando("DANZAR");
-        ejecutarComando("CANTAR");
-        ejecutarComando("SUSURRAR");
+        // Pruebas solicitadas
+        ejecutar("SALUDAR");
+        ejecutar("BROMEAR");
+        ejecutar("ANALIZAR");
+        ejecutar("DANZAR");
     }
+
+
 }
 
