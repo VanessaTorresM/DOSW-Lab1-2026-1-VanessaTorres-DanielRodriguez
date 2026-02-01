@@ -50,8 +50,11 @@ imagen
 **Descripcion**
 
 ### Reto 6 : commit colaborativo
+
 **Evidencia**
-imagen
+
+<img width="933" height="172" alt="image" src="https://github.com/user-attachments/assets/ea2de74c-62b9-4092-93ad-7cbda31597f5" />
+
 
 **Descripcion**
 
