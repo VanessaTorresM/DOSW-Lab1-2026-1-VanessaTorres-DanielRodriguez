@@ -9,7 +9,9 @@
 ## Retos Completos 
 
 ### Reto 1 : Configuracion y cracion de rama 
+
 **Evidencia**
+
 <img width="1840" height="64" alt="image" src="https://github.com/user-attachments/assets/8e36477f-9c63-4fe5-9d67-c46ef84b5e9a" />
 
 **Descripcion**
@@ -21,15 +23,20 @@ imagen
 **Descripcion**
 
 ### Reto 3 : commit colaborativo
+
 **Evidencia**
+
 <img width="885" height="46" alt="image" src="https://github.com/user-attachments/assets/98ba123e-1ea1-4c8b-b481-4ad14b3e88b3" />
 
 
 **Descripcion**
 
 ### Reto 4 : commit colaborativo
+
 **Evidencia**
-imagen
+
+<img width="880" height="122" alt="image" src="https://github.com/user-attachments/assets/3e6a3b7e-5da3-4fe6-a7a9-b789a15a6647" />
+
 
 **Descripcion**
 
