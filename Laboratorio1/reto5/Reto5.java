@@ -1,11 +1,13 @@
 
-
 package reto5;
 
 import java.util.TreeSet;
 import java.util.Set;
 import java.util.List;
 import java.util.HashSet;
+import java.util.stream.Stream;
+import java.util.stream.Collectors;
+
 
 public class Reto5 {
 
@@ -26,9 +28,26 @@ public class Reto5 {
         return salida;
     }
 
+    public static Set<Integer> unirColecciones(
+            Set<Integer> hashSet,
+            Set<Integer> treeSet) {
+
+        return Stream.concat(hashSet.stream(), treeSet.stream()).distinct()
+                .collect(Collectors.toCollection(TreeSet::new));
+    }
+
+
+
+
     public static void main(String[] args) {
-        System.out.println(crearTreeSet(List.of(10, 7, 3, 5, 7, 12, 1, 20)));
-                System.out.println(crearHashSet(List.of(3,6,77,89,66,5,6,3,1)));
+
+        Set<Integer> hash = crearHashSet(List.of(4, 9, 15, 7, 18, 21, 10, 5));
+
+        Set<Integer> tree = crearTreeSet(List.of(12, 3, 25, 10, 7, 30, 18, 4));
+
+        Set<Integer> union = unirColecciones(hash, tree);
+
+        union.forEach(n -> System.out.println("Número en arena: " + n));
     }
 
 }
