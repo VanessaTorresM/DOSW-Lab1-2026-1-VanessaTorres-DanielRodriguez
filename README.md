@@ -6,6 +6,9 @@
 
 ## Hojas de vida
 
+<img width="574" height="709" alt="Captura de pantalla 2026-01-25 132359" src="https://github.com/user-attachments/assets/6875424a-1c09-48b9-b0ab-c94f2378d850" />
+
+
 ## Retos Completos 
 
 ### Reto 1 : Configuracion y cracion de rama 
@@ -16,12 +19,18 @@
 
 **Descripcion**
 
+Se implemento la solucion propuesta por el laboratorio para generar la salida esperada mediante el uso de stream, map y collect. Para estereto la clase que contiene el main es la de Reto1.
+
 ### Reto 2 : commit colaborativo 
+
 **Evidencia**
+
 <img width="1795" height="695" alt="Captura de pantalla 2026-02-01 162115" src="https://github.com/user-attachments/assets/051ccf16-b827-44d3-841d-64899727d91c" />
 
-
 **Descripcion**
+
+Para este reto se crearon las ramas mncionadas en el lab (una por cada colaborador), cada colaborador realizo las especificaciones paso a paso mencionadas en el laboratoerio, para al final juntar las actualizaciones en la rama principal del reto.
+Esto genero errores los cuales fueron corregidos posteriormente para un desarrollo del reto completo. El main de este reto se encuentra en CarreraParalela.
 
 ### Reto 3 : commit colaborativo
 
@@ -29,8 +38,9 @@
 
 <img width="885" height="46" alt="image" src="https://github.com/user-attachments/assets/98ba123e-1ea1-4c8b-b481-4ad14b3e88b3" />
 
-
 **Descripcion**
+
+Aligual que en el reto 2 se crearon las 2 subramas para poder crear las funciones solicitadas para cada colaborador, para este caso uno debia repetir un mensaje 3 veces y el otro debia invertir el mensaje. Al momento de hacer merge se generaron errores, los cuales fueron corregidos paraque el resultado final sea una misma entrada pero aplicandole las funciones hechas por cada colaborador por separado. El main de este reto se encuentra en Reto3.
 
 ### Reto 4 : commit colaborativo
 
@@ -38,8 +48,9 @@
 
 <img width="880" height="122" alt="image" src="https://github.com/user-attachments/assets/3e6a3b7e-5da3-4fe6-a7a9-b789a15a6647" />
 
-
 **Descripcion**
+
+Este reto no fue muy diferente a los anteriores, lo unico diferente era la funcion por crear. Pero una vez hechas las funciones por separado de cadsa colaborador, se realizo el merge y se hicieron los arreglos necesarios para que el resultado del reto fuese el esperado. El main de este reto se encuentra en Tesoro.
 
 ### Reto 5 : commit colaborativo
 
@@ -47,8 +58,9 @@
 
 <img width="905" height="159" alt="image" src="https://github.com/user-attachments/assets/b059ef3d-c14a-403c-9dcc-582391ce06f8" />
 
-
 **Descripcion**
+
+Para este reto cada colaborador debia realizar una misma funcion, pero lo unico que cambiaba era el uso de estructuras de datos, ya que uno usaba HashSet y otro TreeSet. Al finalizar la reaizacion de estas funcones por separado se juntan con un merge para posteriormente arreglar los errores generados y lograr cumplir con la salida propuesta por el reto. El main de este reto se encuentra en Reto5.
 
 ### Reto 6 : commit colaborativo
 
@@ -56,8 +68,9 @@
 
 <img width="933" height="172" alt="image" src="https://github.com/user-attachments/assets/ea2de74c-62b9-4092-93ad-7cbda31597f5" />
 
-
 **Descripcion**
+
+Para este reto se realizaron los comandos mencionados en el mismo por separado segun el colaborador que lo tenia que hacer, ya se a A o B. Al finalizar esto, se juntan los comandos hechos con un merge para que todos los comandos esten en un mismo metodo y no por separado. El main de este reto se encuentra en Reto6.
 
 ## Preguntas teoricas
 1. ¿Cuál es la diferencia entre git merge y git rebase?
@@ -118,10 +131,20 @@ R/ Por que es una buena practica permitiendo crear nuevas funcionalidades de for
 
 1. Distribución de responsabilidades
 
-2. Forma de comunicación
+El trabajo dividido era indispensable, ya que en algunas ocasiones uno no podia avanzar si el otro no terminaba su parte. Pero en algunos casos tocaba arreglar codigo y hacer el README entonces mientras que uno hacia uno el otro hacia el otro y se revisaba todo al final.
 
-3. Frecuencia de trabajo
+3. Forma de comunicación
 
-4. Manejo de conflictos y desacuerdos
+Nos comunicabamos mediante mensaje y mayormente para la realizacion de los retos mrdiante llamada en Teams
 
-5. Compromisos frente a entregas y calidad
+5. Frecuencia de trabajo
+
+Ambos procurabamos treabajar al tiempo para resolver el laboratorio, pero en algunas ocasiones uno adelantaba mientras el otro terminaba otras obligaciones, pero el trabajo realizado fue frecuente para ambos.
+
+7. Manejo de conflictos y desacuerdos
+
+Cuando teniamos algun desacuerdo era por la interpretacion de alguna parte del enunciado, entonces para solucionarlo le preguntabamos a el profesor para salir de dudas.
+
+8. Compromisos frente a entregas y calidad
+
+Nos comprometemos a revisar mas a detalle la guia y entenderla de la mejor manera posible para no cometer errores al momento de relizar los ejercicios y que sean con las especificaciones que piden (si es que las hay).
