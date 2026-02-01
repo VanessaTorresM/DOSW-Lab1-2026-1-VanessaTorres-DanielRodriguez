@@ -53,7 +53,7 @@ R/ Se produce un conflicto de fusion, y esto requiere que el desarrollador decid
 
 3. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
 
-R/
+R/ Lo podemos ver facilmente con el siguiente comando git log --graph --oneline --all --decorate
 
 4. Explica la diferencia entre un commit y un push.
 
@@ -61,13 +61,16 @@ R/ git commit guarda los cambios de manera local, mientras que git push guarda l
 
 5. ¿Para qué sirven git stash y git pop?
 
-R/
+R/git Stash perimite guardar los cmabios que hiciste en una pila interna, con eso te puedes
+mover a otra rama sin necesidad de hacer commit.El git pop te devuelve el cambio mas reciente de la pila
 
 6. ¿Qué diferencia hay entre HashMap y HashTable?
 
-R/
+R/HashMap permite valores nulos y no esta sincronizado, en cambio HashTable esta sincronizado 
+pero no permite valores nulos 
 
-7. ¿Qué ventajas Fene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+
+7. ¿Qué ventajas tiene  Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
 
 R/
 
