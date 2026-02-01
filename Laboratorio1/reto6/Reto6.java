@@ -6,17 +6,18 @@ public class Reto6 {
 
         switch (mensaje) {
 
-            case "SALUDAR":
-                return "¡Saludos, viajero del Tiempo y del código!";
+            case "BROMEAR":
+                return "“¿Por qué la RAM rompió con la CPU?  \n" +
+                        "Porque necesitaba espacio \n";
 
-            case "DESPEDIR":
-                return "Que los bits te acompañen, hasta la próxima misión.";
+            case "GRITAR":
+                return"¡¡¡ALERTA DE STACK OVERFLOW!!!" ;
 
-            case "CANTAR":
-                return "01010101";
+            case "SUSURRAR":
+                return "Shhh… los bugs están dormidos";
 
-            case "DANZAR":
-                return "Girando en modo fiesta.";
+            case "ANALIZAR":
+                return "Analizando datos… resultado: ¡Eres increíble programando!";
 
             default:
                 return "Comando desconocido.";
