@@ -1,4 +1,4 @@
-package Laboratorio1.reto2;
+package reto2;
 
 
 
