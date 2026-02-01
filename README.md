@@ -4,11 +4,13 @@
 -- Jeimmy Vanessa Torres Marin
 -- Daniel Esteban Rodriguez Suarez
 
+## Hojas de vida
+
 ## Retos Completos 
 
 ### Reto 1 : Configuracion y cracion de rama 
 **Evidencia**
-imagen 
+<img width="1840" height="64" alt="image" src="https://github.com/user-attachments/assets/8e36477f-9c63-4fe5-9d67-c46ef84b5e9a" />
 
 **Descripcion**
 
