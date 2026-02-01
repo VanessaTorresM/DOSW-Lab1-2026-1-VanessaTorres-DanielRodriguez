@@ -25,10 +25,10 @@ public class Reto6 {
     }
 
     public static void main(String[] args) {
-        System.out.println(fragmento1("SALUDAR"));
-        System.out.println(fragmento1("CANTAR"));
-        System.out.println(fragmento1("DANZAR"));
-        System.out.println(fragmento1("DESPEDIR"));
+        System.out.println(fragmento1("BROMEAR"));
+        System.out.println(fragmento1("GRITAR"));
+        System.out.println(fragmento1("SUSURRAR"));
+        System.out.println(fragmento1("ANALIZAR"));
     }
 }
 
