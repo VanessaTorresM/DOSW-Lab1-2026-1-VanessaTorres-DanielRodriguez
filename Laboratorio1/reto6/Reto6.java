@@ -2,7 +2,7 @@ package reto6;
 
 public class Reto6 {
 
-    public static String fragmento1(String mensaje) {
+    public static String fragmento2(String mensaje) {
 
         switch (mensaje) {
 
@@ -25,10 +25,10 @@ public class Reto6 {
     }
 
     public static void main(String[] args) {
-        System.out.println(fragmento1("BROMEAR"));
-        System.out.println(fragmento1("GRITAR"));
-        System.out.println(fragmento1("SUSURRAR"));
-        System.out.println(fragmento1("ANALIZAR"));
+        System.out.println(fragmento2("BROMEAR"));
+        System.out.println(fragmento2("GRITAR"));
+        System.out.println(fragmento2("SUSURRAR"));
+        System.out.println(fragmento2("ANALIZAR"));
     }
 }
 
