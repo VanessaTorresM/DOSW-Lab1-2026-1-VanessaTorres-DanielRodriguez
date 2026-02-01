@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d479ab4-5f8b-469b-8e44-7fa8ddc528fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto6/Reto6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto6/Reto6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto6/Reto6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio1/reto6/Reto6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "feature/reto__numero__6__RodriguezDaniel__VanessaTorres"
+    "git-widget-placeholder": "Merging feature/reto__numero__6__RodriguezDaniel__VanessaTorres"
   }
 }]]></component>
   <component name="SharedIndexes">
