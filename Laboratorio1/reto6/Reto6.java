@@ -1,34 +1,44 @@
 package reto6;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Reto6 {
 
-    public static String fragmento2(String mensaje) {
+    private static final Map<String, Runnable> comandos = new HashMap<>();
 
-        switch (mensaje) {
+    static{
 
+        comandos.put("BROMEAR", () -> System.out.println("¿Por qué la RAM rompió con la CPU? Porque necesitaba espacio…"));
+
+        comandos.put("GRITAR", () -> System.out.println("¡¡¡ALERTA DE STACK OVERFLOW!!!"));
+
+        comandos.put("SUSURRAR", () -> System.out.println("Shhh… los bugs están dormidos"));
+
+        comandos.put("ANALIZAR", () -> System.out.println("Analizando datos… resultado: ¡Eres increíble programando!"));
+
+    }
+
+    public static void ejecutarComando(String comando) {
+        switch (comando) {
             case "BROMEAR":
-                return "“¿Por qué la RAM rompió con la CPU?  \n" +
-                        "Porque necesitaba espacio \n";
-
             case "GRITAR":
-                return"¡¡¡ALERTA DE STACK OVERFLOW!!!" ;
-
             case "SUSURRAR":
-                return "Shhh… los bugs están dormidos";
-
             case "ANALIZAR":
-                return "Analizando datos… resultado: ¡Eres increíble programando!";
-
+                comandos.get(comando).run();
+                break;
             default:
-                return "Comando desconocido.";
+                System.out.println("Comando desconocido: " + comando);
         }
     }
 
     public static void main(String[] args) {
-        System.out.println(fragmento2("BROMEAR"));
-        System.out.println(fragmento2("GRITAR"));
-        System.out.println(fragmento2("SUSURRAR"));
-        System.out.println(fragmento2("ANALIZAR"));
+
+        ejecutarComando("BROMEAR");
+        ejecutarComando("ANALIZAR");
+        ejecutarComando("GRITAR");
+        ejecutarComando("SUSURRAR");
     }
+
 }
 
